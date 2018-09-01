@@ -29,6 +29,51 @@ class Gallery extends Component {
                 original: 'https://placeimg.com/840/500/any',
                 thumbnail: 'https://placeimg.com/550/350/any',
                 
+              },{
+                original: 'https://placeimg.com/840/500/any',
+                thumbnail: 'https://placeimg.com/550/350/any',
+                
+              },
+              {
+                original: 'https://placeimg.com/840/500/any',
+                thumbnail: 'https://placeimg.com/550/350/any',
+                
+              },{
+                original: 'https://placeimg.com/840/500/any',
+                thumbnail: 'https://placeimg.com/550/350/any',
+                
+              },
+              {
+                original: 'https://placeimg.com/840/500/any',
+                thumbnail: 'https://placeimg.com/550/350/any',
+                
+              },{
+                original: 'https://placeimg.com/840/500/any',
+                thumbnail: 'https://placeimg.com/550/350/any',
+                
+              },
+              {
+                original: 'https://placeimg.com/840/500/any',
+                thumbnail: 'https://placeimg.com/550/350/any',
+                
+              },{
+                original: 'https://placeimg.com/840/500/any',
+                thumbnail: 'https://placeimg.com/550/350/any',
+                
+              },
+              {
+                original: 'https://placeimg.com/840/500/any',
+                thumbnail: 'https://placeimg.com/550/350/any',
+                
+              },{
+                original: 'https://placeimg.com/840/500/any',
+                thumbnail: 'https://placeimg.com/550/350/any',
+                
+              },
+              {
+                original: 'https://placeimg.com/840/500/any',
+                thumbnail: 'https://placeimg.com/550/350/any',
+                
               },
             
           ]
