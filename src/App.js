@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import ReactDOM from "react-dom";
+import SideBar from "./Components/Sidebar/Sidebar";
 import Footer from './Components/Footer/Footer';
 import Header from './Components/Header/Header';
 import Gallery from './Components/Gallery/Gallery';
@@ -15,6 +17,7 @@ class App extends Component {
       <div>
         <Header/>
         <Gallery massImage={imageGallery}/>
+        <SideBar pageWrapId={"page-wrap"} outerContainerId={"App"} />
         <Footer/>
       </div>
     );

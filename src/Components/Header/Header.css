@@ -13,21 +13,57 @@
     width: 50px;
     border-radius: 50%;
 }
-
-
-
-/* BURGER */
-.header__burger {
-    height: 30px;
-    width: 40px;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
+.logo-container__img {
+   height: 100%;
+   width: 100%;
 }
-.bar {
-    display: block;
-    height: 3px;
-    width: 100%;
-    background-color: #fff;
-
+.header__nav {
+    display: none;
+}
+.nav__item {
+    list-style-type: none;
+}
+@media(min-width: 768px) {
+    .header__logo-container {
+        display: none;
+    }
+    .header__nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+    .header__menu-link {
+        color: #fff;
+        font-size: 13px;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    .header__menu-link:hover  {
+        transition-duration: 0.3s;
+        color: red;
+    }
+    .item__sport-club:hover > .sportClub__list {
+        display: block;
+    }
+}
+@media(min-width: 1240px) {
+    .header {
+        height: 120px;
+    }
+    .header__nav {
+        width: 70%;
+    }
+    .header__logo-container {
+        display: block;
+        height: 100px;
+        width: 100px;
+    }
+    .header__menu-link {
+        font-size: 16px;
+    }
+}
+.nav__item:hover > .company_list {
+    display: block; 
 }
