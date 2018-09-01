@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import './Gallery.css';
+import './GalleryProtection.css';
 import ImageGallery from 'react-image-gallery';
 import {images} from './images/allImages';
 
-class Gallery extends Component {
+class GalleryProtection extends Component {
     
     render() {
        
@@ -21,8 +21,6 @@ class Gallery extends Component {
     }
 }
 
-Gallery.propTypes = {
 
-};
 
-export default Gallery;
+export default GalleryProtection;

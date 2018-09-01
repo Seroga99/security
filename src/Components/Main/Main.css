@@ -1,0 +1,75 @@
+.wrapper_main {
+    /*background-color: #282828;*/
+    background-color: #222;
+}
+.main_page {
+    color: #FFFFFF;
+    padding: 2rem;
+}
+.list-uslug {
+    box-shadow: 0 0 20px 0 rgba(242,17,17,0.68);
+    font-style: italic;
+}
+.main_photo figcaption {
+    font-size: 1rem;
+    background-color: #282828;
+    /*z-index: -1;*/
+    position: relative;
+    top: -1.05rem;
+    /*width: 9.56rem;*/
+    margin: auto;
+    padding: 0.1rem 0.5rem;
+    border-radius: 0.125rem;
+    text-align: center;
+    box-shadow: 0 0.5rem 0.5rem 0 rgba(0, 0, 0, 0.65), inset 0 0.0625rem 0 0 rgba(255, 255, 255, 0.15);
+}
+
+.main_page_info figcaption {
+    font-size: 1rem;
+    background-color: #282828;
+    /*z-index: -1;*/
+    position: relative;
+    top: -1.05rem;
+    /*width: 9.56rem;*/
+    margin: auto;
+    padding: 0.1rem 0.5rem;
+    border-radius: 0.125rem;
+    box-shadow: 0 0.5rem 0.5rem 0 rgba(0, 0, 0, 0.65), inset 0 0.0625rem 0 0 rgba(255, 255, 255, 0.15);
+}
+.center_text {
+    text-align: center;
+    font-size: 1.4rem;
+    background: #282828;
+    color: #FFFFFF;
+    text-shadow: 0 0 10px #C20E0B;
+}
+/*.border-top {*/
+    /*text-align: center;*/
+    /*margin: auto;*/
+/*}*/
+@media (min-width: 480px) {
+    .main_photo figcaption {
+        font-size: 1.2rem;
+
+    }
+
+    .main_page_info figcaption {
+        font-size: 1.2rem;
+    }
+    .center_text {
+        font-size: 1.6rem;
+    }
+}
+@media (min-width: 1024px) {
+    .main_photo figcaption {
+        font-size: 1.5rem;
+        text-align: left;
+    }
+
+    .main_page_info figcaption {
+        font-size: 1.5rem;
+    }
+    .center_text {
+        font-size: 2rem;
+    }
+}
