@@ -86,6 +86,17 @@ a {
 .berger-menu__item-sport:hover > .sportClub__list {
   display: block;
 }
+
+
+
+.company_list {
+  display: none;
+}
+.berger-menu__company:hover > .company_list {
+  display: block;
+}
+
+
 @media(min-width: 768px) {
   .bm-burger-button {
     display: none;

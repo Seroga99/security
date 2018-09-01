@@ -12,10 +12,21 @@ export default props => {
         </a>     
       </li>
 
-      <li className='berger-menu__item'>  
+      <li className='berger-menu__item berger-menu__company'>  
         <a className="menu-item" href="/company">
           Охоронна компанія
         </a>
+        <ul className='company_list'>
+          <li className='company_item'>
+            <a className='company_link' href="http://">Загальне</a>
+          </li>
+          <li className='company_item'>
+            <a className='company_link' href="http://">Види послуг</a>
+          </li>
+          <li className='company_item'>
+            <a className='company_link' href="http://">Галерея</a>
+          </li>
+        </ul>
       </li>
 
       <li className='berger-menu__item'>      

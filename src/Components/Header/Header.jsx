@@ -17,6 +17,17 @@ const Header = () => {
                     <a className="header__menu-link" href="/company">
                         Охоронна компанія
                     </a>
+                    <ul className='company_list'>
+                        <li className='company_item'>
+                            <a className='company_link' href="http://">Загальне</a>
+                        </li>
+                        <li className='company_item'>
+                            <a className='company_link' href="http://">Види послуг</a>
+                        </li>
+                        <li className='company_item'>
+                            <a className='company_link' href="http://">Галерея</a>
+                        </li>
+                    </ul>
                </li>
                <li className='nav__item'>
                     <a className="header__menu-link" href="/preparation">
