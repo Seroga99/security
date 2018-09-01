@@ -4,33 +4,33 @@
 }
 .main_page {
     color: #FFFFFF;
-    padding: 2rem;
+    padding: 0 0.5rem;
 }
 .list-uslug {
     box-shadow: 0 0 20px 0 rgba(242,17,17,0.68);
     font-style: italic;
 }
 .main_photo figcaption {
-    font-size: 1rem;
+    font-size: 1.2rem;
     background-color: #282828;
     /*z-index: -1;*/
     position: relative;
-    top: -1.05rem;
-    /*width: 9.56rem;*/
+    width: 90%;
     margin: auto;
-    padding: 0.1rem 0.5rem;
+    padding: 0.3rem 0.5rem;
     border-radius: 0.125rem;
     text-align: center;
+    margin-bottom: 2.1rem;
     box-shadow: 0 0.5rem 0.5rem 0 rgba(0, 0, 0, 0.65), inset 0 0.0625rem 0 0 rgba(255, 255, 255, 0.15);
 }
 
 .main_page_info figcaption {
-    font-size: 1rem;
+    font-size: 1.2rem;
     background-color: #282828;
     /*z-index: -1;*/
     position: relative;
     top: -1.05rem;
-    /*width: 9.56rem;*/
+    width: 90%;
     margin: auto;
     padding: 0.1rem 0.5rem;
     border-radius: 0.125rem;
@@ -43,16 +43,24 @@
     color: #FFFFFF;
     text-shadow: 0 0 10px #C20E0B;
 }
-/*.border-top {*/
-    /*text-align: center;*/
+.border-top {
+    text-align: center;
     /*margin: auto;*/
-/*}*/
+}
+.main-photo-logo {
+    display: block;
+    max-width: 50%;
+    height: auto;
+    margin: auto;
+}
+
 @media (min-width: 480px) {
     .main_photo figcaption {
         font-size: 1.2rem;
-
     }
-
+    .main-photo-logo {
+        max-width: 50%;
+    }
     .main_page_info figcaption {
         font-size: 1.2rem;
     }
