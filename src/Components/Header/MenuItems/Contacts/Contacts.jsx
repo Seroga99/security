@@ -1,20 +1,19 @@
 import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
-import './Common.css';
+import './Contacts.css';
 
-class Common extends PureComponent {
+class Contacts extends PureComponent {
     render() {
         return (
             <div>
-                <span>Общее</span>
-                
+                Контакты
             </div>
         );
     }
 }
 
-Common.propTypes = {
+Contacts.propTypes = {
 
 };
 
-export default Common;
+export default Contacts;

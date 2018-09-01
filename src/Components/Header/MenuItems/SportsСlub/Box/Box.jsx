@@ -1,20 +1,21 @@
 import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
-import './Common.css';
+import './Box.css';
 
-class Common extends PureComponent {
+
+
+class Box extends PureComponent {
     render() {
         return (
             <div>
-                <span>Общее</span>
-                
+                Box
             </div>
         );
     }
 }
 
-Common.propTypes = {
 
-};
 
-export default Common;
+
+
+export default Box;

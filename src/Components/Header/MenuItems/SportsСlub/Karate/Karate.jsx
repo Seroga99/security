@@ -1,20 +1,24 @@
 import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
-import './Common.css';
+import './Karate.css';
 
-class Common extends PureComponent {
+const propTypes = {
+    
+};
+
+
+class Karate extends PureComponent {
     render() {
         return (
             <div>
-                <span>Общее</span>
-                
+                Karate
             </div>
         );
     }
 }
 
-Common.propTypes = {
 
-};
+Karate.propTypes = propTypes;
 
-export default Common;
+
+export default Karate;
