@@ -2,81 +2,12 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import './Gallery.css';
 import ImageGallery from 'react-image-gallery';
+import {images} from './images/allImages';
 
 class Gallery extends Component {
     
     render() {
-        const images = [
-            {
-              original: 'https://placeimg.com/840/500/any',
-              thumbnail: 'https://placeimg.com/450/250/any',
-            },
-            {
-              original: 'https://placeimg.com/840/500/any',
-              thumbnail: 'https://placeimg.com/550/350/any'
-            },
-            {
-              original: 'https://placeimg.com/840/500/any',
-              thumbnail: 'https://placeimg.com/550/350/any',
-              
-            },
-            {
-                original: 'https://placeimg.com/840/500/any',
-                thumbnail: 'https://placeimg.com/550/350/any',
-                
-              },
-              {
-                original: 'https://placeimg.com/840/500/any',
-                thumbnail: 'https://placeimg.com/550/350/any',
-                
-              },{
-                original: 'https://placeimg.com/840/500/any',
-                thumbnail: 'https://placeimg.com/550/350/any',
-                
-              },
-              {
-                original: 'https://placeimg.com/840/500/any',
-                thumbnail: 'https://placeimg.com/550/350/any',
-                
-              },{
-                original: 'https://placeimg.com/840/500/any',
-                thumbnail: 'https://placeimg.com/550/350/any',
-                
-              },
-              {
-                original: 'https://placeimg.com/840/500/any',
-                thumbnail: 'https://placeimg.com/550/350/any',
-                
-              },{
-                original: 'https://placeimg.com/840/500/any',
-                thumbnail: 'https://placeimg.com/550/350/any',
-                
-              },
-              {
-                original: 'https://placeimg.com/840/500/any',
-                thumbnail: 'https://placeimg.com/550/350/any',
-                
-              },{
-                original: 'https://placeimg.com/840/500/any',
-                thumbnail: 'https://placeimg.com/550/350/any',
-                
-              },
-              {
-                original: 'https://placeimg.com/840/500/any',
-                thumbnail: 'https://placeimg.com/550/350/any',
-                
-              },{
-                original: 'https://placeimg.com/840/500/any',
-                thumbnail: 'https://placeimg.com/550/350/any',
-                
-              },
-              {
-                original: 'https://placeimg.com/840/500/any',
-                thumbnail: 'https://placeimg.com/550/350/any',
-                
-              },
-            
-          ]
+       
         return (
             <div className='container'>
 <ImageGallery items={images} autoPlay={true} showBullets={true} showIndex={true} />
