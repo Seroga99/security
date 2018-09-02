@@ -25,13 +25,13 @@ const Header = () => {
                     </span>
                     <ul className='submenu__list company_list'>
                         <li className='company_item'>
-                            <NavLink to='/Common'className="header__menu-link" activeClassName='company_link'>Загальне</NavLink>
+                            <NavLink to='/Common'className="header__menu-link" activeClassName='company_link'>&#8226; Загальне</NavLink>
                         </li>
                         <li className='company_item'>
-                            <NavLink to='/TypesService' className="header__menu-link" activeClassName='company_link'>Види послуг</NavLink>
+                            <NavLink to='/TypesService' className="header__menu-link" activeClassName='company_link'>&#8226; Види послуг</NavLink>
                         </li>
                         <li className='company_item'>
-                            <NavLink to='/GalleryProtection' className="header__menu-link" activeClassName='company_link'>Галерея</NavLink>
+                            <NavLink to='/GalleryProtection' className="header__menu-link" activeClassName='company_link'>&#8226; Галерея</NavLink>
                         </li>
                     </ul>
                     <img className='item__triangle' src={triangle} alt="more"/>
@@ -45,13 +45,13 @@ const Header = () => {
                     </span>
                     <ul className='submenu__list sportClub__list'>
                         <li className='sportClub__item'>
-                        <NavLink to='/Box' className='submenu__item header__menu-link' activeClassName='company_link'>Бокс</NavLink>
+                        <NavLink to='/Box' className='submenu__item header__menu-link' activeClassName='company_link'>&#8226; Бокс</NavLink>
                         </li>
                         <li className='sportClub__item'>
-                        <NavLink to='/Karate' className='submenu__item header__menu-link' activeClassName='company_link'>Карате</NavLink>
+                        <NavLink to='/Karate' className='submenu__item header__menu-link' activeClassName='company_link'>&#8226; Карате</NavLink>
                         </li>
                         <li className='sportClub__item'>
-                        <NavLink to='/MuayThai' className='submenu__item header__menu-link' activeClassName='company_link'>Муей Тай</NavLink>
+                        <NavLink to='/MuayThai' className='submenu__item header__menu-link' activeClassName='company_link'>&#8226; Муей Тай</NavLink>
                         </li>
                     </ul>
                     <img className='item__triangle' src={triangle} alt="more"/>
