@@ -1,5 +1,6 @@
 import React from "react";
 import { push as Menu } from "react-burger-menu";
+import {NavLink} from 'react-router-dom'; 
 import './Sidebar.css';
 
 export default props => {
@@ -7,9 +8,7 @@ export default props => {
     <Menu {...props}>
     <ul className='berger-menu__list'>
       <li className='berger-menu__item'>  
-        <a className="menu-item" href="/">
-          Головна
-        </a>     
+        <NavLink to='/Main' activeClassName='company_link'>ГОЛОВНА</NavLink>     
       </li>
 
       <li className='berger-menu__item berger-menu__company'>  
@@ -18,47 +17,45 @@ export default props => {
         </a>
         <ul className='company_list'>
           <li className='company_item'>
-            <a className='company_link' href="http://">Загальне</a>
+            <NavLink to='/Common' activeClassName='company_link'>Загальне</NavLink>
           </li>
           <li className='company_item'>
-            <a className='company_link' href="http://">Види послуг</a>
+            <NavLink to='/TypesService' activeClassName='company_link'>Види послуг</NavLink>
           </li>
           <li className='company_item'>
-            <a className='company_link' href="http://">Галерея</a>
+            <NavLink to='/GalleryProtection' activeClassName='company_link'>Галерея</NavLink>
           </li>
         </ul>
       </li>
 
       <li className='berger-menu__item'>      
-        <a className="menu-item" href="/preparation">
-        Тактико-спеціальна підготовка
-        </a>
+        <NavLink to='/SpecialTraining' activeClassName='company_link'>ПІДГОТОВКА</NavLink>      
       </li>
 
       <li className='berger-menu__item berger-menu__item-sport'> 
         <a className="menu-item menu-item-sport" href="/sportclub">
-          Спортивний клуб
+          СПОРТИВНИЙ КЛУБ
         </a>
         <ul className='sportClub__list'>
           <li className='sportClub__item'>
-            <a className='sportClub__link' href="http://">Бокс</a>
+            <NavLink to='/Box' activeClassName='company_link'>Бокс</NavLink>
           </li>
           <li className='sportClub__item'>
-            <a className='sportClub__link' href="http://">Карате кіокушин</a>
+            <a className='sportClub__link' href="http://"></a>
+            <NavLink to='/Karate' activeClassName='company_link'>Карате</NavLink>  
           </li>
           <li className='sportClub__item'>
-            <a className='sportClub__link' href="http://">Муей Тай</a>
+            <NavLink to='/MuayThai' activeClassName='company_link'>Муей Тай</NavLink>  
           </li>
         </ul>
       </li>
-      
+      <li className='berger-menu__item'>
+         <NavLink to='/Gallery' activeClassName='company_link'>ГАЛЕРЕЯ</NavLink>
+      </li>
       <li className='berger-menu__item'>      
-        <a className="menu-item" href="/contacts">
-          Контакти
-        </a>
+        <NavLink to='/Сontacts' activeClassName='company_link'>КОНТАКТИ</NavLink>  
       </li>
     </ul>
-
     </Menu>
   );
 };
