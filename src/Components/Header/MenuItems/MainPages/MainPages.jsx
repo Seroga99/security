@@ -1,29 +1,19 @@
-import React from 'react';
-import './Main.css';
-import MainLogo from './Main-phot.png'
-import MainPages from '../Header/MenuItems/MainPages/MainPages';
-import Common from '../../Components/Header/MenuItems/ProtectionCompany/Common/Common';
-import TypesService from '../Header/MenuItems/ProtectionCompany/TypesService/TypesService';
+import React, { PureComponent } from 'react';
+import PropTypes from 'prop-types';
+import './MainPages.css';
 
-import SpecialTraining from '../Header/MenuItems/SpecialTraining/SpecialTraining';
-import {Route, Switch, Redirect} from 'react-router';
+const propTypes = {
+    
+};
 
-import Box from '../Header/MenuItems/SportsСlub/Box/Box';
-import Karate from '../Header/MenuItems/SportsСlub/Karate/Karate';
-import MuayThai from '../Header/MenuItems/SportsСlub/MuayThai/MuayThai';
 
-import Gallery from '../Header/MenuItems/Gallery/Gallery';
-import BoxGallery from '../Header/MenuItems/Gallery/BoxGallery/BoxGallery';
-import KarateGallery from '../Header/MenuItems/Gallery/KarateGallery/KarateGallery';
-import MuayThaiGallery from '../Header/MenuItems/Gallery/MuayThaiGallery/MuayThaiGallery';
-
-import Contacts from '../Header/MenuItems/Contacts/Contacts';
-const Main = () => {
-    return (
-        <div className='wrapper_main'>
-           <div className="main_page">
+class MainPages extends PureComponent {
+    render() {
+        return (
+            <div>
+                 <div className="main_page">
                <div className="main_photo"><figcaption>
-                   <img src={MainLogo} alt="AlyansControl" className="main-photo-logo"/>
+                   <img src="main-photo" alt="AlyansControl" className="main-photo"/>
                    <p>Охоронна компанія «Альянс Контроль» була заснована в липні 2016 року. (Ліцензія МВС України №716 від 27.07.2016) .є членами Федерації професіоналів безпеки України.</p>
                    <p>Філософія компанії – поєднання передових економічних технологій з професійним потенціалом команди.
                        Наша діяльність – це надання охоронних послуг для фізичних і юридичних осіб. Ми вкладаємо, як тривалі договори, так і договори на разове надання послуг.</p>
@@ -59,31 +49,13 @@ const Main = () => {
            </figcaption>
            </div>
         </div>
-        <Switch>
-            <Route exact path='/' component={MainPages}/>
-            <Route path='/Common' component={Common}/>
-            <Route path='/TypesService' component={TypesService}/>
-
-            <Route path='/SpecialTraining' component={SpecialTraining}/>
-
-            <Route path='/Box' component={Box}/>
-            <Route path='/Karate' component={Karate}/>
-            <Route path='/MuayThai' component={MuayThai}/>
-
-            <Route path='/Gallery' component={Gallery}/>
-            <Route path='/BoxGallery' component={BoxGallery}/>
-            <Route path='/KarateGallery' component={KarateGallery}/>
-            <Route path='/MuayThaiGallery' component={MuayThaiGallery}/>
-
-            <Route path='/Contacts' component={Contacts}/>
-           
-
-        {/* <GalleryProtection /> */}
-        </Switch>
-        </div>
-    )
-};
+            </div>
+        );
+    }
+}
 
 
-export default Main;
+MainPages.propTypes = propTypes;
 
+
+export default MainPages;
