@@ -1,6 +1,6 @@
 import React from 'react';
 import './Main.css';
-import MainLogo from './Main-photos.png'
+import MainLogo from './Main-phot.png'
 
 
 const Main = () => {
