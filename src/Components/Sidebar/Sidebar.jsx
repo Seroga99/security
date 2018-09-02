@@ -1,60 +1,68 @@
 import React from "react";
-import { push as Menu } from "react-burger-menu";
+import { slide as Menu } from "react-burger-menu";
 import {NavLink} from 'react-router-dom'; 
 import './Sidebar.css';
+import triangle from './triangle.svg';
+
 
 export default props => {
   return (
     <Menu {...props}>
+
     <ul className='berger-menu__list'>
+    
       <li className='berger-menu__item'>  
-        <NavLink to='/Main' activeClassName='company_link'>ГОЛОВНА</NavLink>     
+        <NavLink className='burger-menu__part' to='/Main' activeClassName='company_link'>ГОЛОВНА</NavLink>     
       </li>
 
       <li className='berger-menu__item berger-menu__company'>  
-        <a className="menu-item" href="/company">
-          Охоронна компанія
-        </a>
-        <ul className='company_list'>
+        <span className="burger-menu__part menu-item" href="/company">
+          ОХОРОННА КОМПАНІЯ
+        </span>
+        <img className='burger__triangle' src={triangle} alt="mort"/>
+        <ul className='submenu__list company_list'>
           <li className='company_item'>
-            <NavLink to='/Common' activeClassName='company_link'>Загальне</NavLink>
+            <NavLink className='burger-menu__part' to='/Common' activeClassName='company_link'>&#8226; Загальне</NavLink>
           </li>
           <li className='company_item'>
-            <NavLink to='/TypesService' activeClassName='company_link'>Види послуг</NavLink>
+            <NavLink className='burger-menu__part' to='/TypesService' activeClassName='company_link'>&#8226; Види послуг</NavLink>
           </li>
           <li className='company_item'>
-            <NavLink to='/GalleryProtection' activeClassName='company_link'>Галерея</NavLink>
+            <NavLink className='burger-menu__part' to='/GalleryProtection' activeClassName='company_link'>&#8226; Галерея</NavLink>
           </li>
         </ul>
       </li>
 
       <li className='berger-menu__item'>      
-        <NavLink to='/SpecialTraining' activeClassName='company_link'>ПІДГОТОВКА</NavLink>      
+        <NavLink className='burger-menu__part' to='/SpecialTraining' activeClassName='company_link'> ПІДГОТОВКА</NavLink>      
       </li>
 
       <li className='berger-menu__item berger-menu__item-sport'> 
-        <a className="menu-item menu-item-sport" href="/sportclub">
+        <span className="burger-menu__part menu-item menu-item-sport" href="/sportclub">
           СПОРТИВНИЙ КЛУБ
-        </a>
-        <ul className='sportClub__list'>
+        </span>
+        <img className='burger__triangle' src={triangle} alt="mort"/>
+        <ul className='submenu__list sportClub__list'>
           <li className='sportClub__item'>
-            <NavLink to='/Box' activeClassName='company_link'>Бокс</NavLink>
+            <NavLink className='burger-menu__part' to='/Box' activeClassName='company_link'>&#8226; Бокс</NavLink>
           </li>
           <li className='sportClub__item'>
-            <a className='sportClub__link' href="http://"></a>
-            <NavLink to='/Karate' activeClassName='company_link'>Карате</NavLink>  
+            <NavLink className='burger-menu__part' to='/Karate' activeClassName='company_link'>&#8226; Карате</NavLink>  
           </li>
           <li className='sportClub__item'>
-            <NavLink to='/MuayThai' activeClassName='company_link'>Муей Тай</NavLink>  
+            <NavLink className='burger-menu__part' to='/MuayThai' activeClassName='company_link'>&#8226; Муей Тай</NavLink>  
           </li>
         </ul>
       </li>
+
       <li className='berger-menu__item'>
-         <NavLink to='/Gallery' activeClassName='company_link'>ГАЛЕРЕЯ</NavLink>
+         <NavLink className='burger-menu__part' to='/Gallery' activeClassName='company_link'>ГАЛЕРЕЯ</NavLink>
       </li>
-      <li className='berger-menu__item'>      
-        <NavLink to='/Сontacts' activeClassName='company_link'>КОНТАКТИ</NavLink>  
+
+      <li className=' berger-menu__item'>      
+        <NavLink className='burger-menu__part' to='/Сontacts' activeClassName='company_link'>КОНТАКТИ</NavLink>  
       </li>
+
     </ul>
     </Menu>
   );

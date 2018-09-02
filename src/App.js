@@ -16,8 +16,8 @@ class App extends Component {
     return (
       <div>
         <Header/>
-        <Main/>
         <SideBar pageWrapId={"page-wrap"} outerContainerId={"App"} />
+        <Main/>
         <Footer/>
       </div>
     );

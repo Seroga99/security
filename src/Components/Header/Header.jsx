@@ -1,8 +1,9 @@
 import React from 'react';
+import {NavLink} from 'react-router-dom';
 import './Header.css';
 import logo from './logo.png';
+import triangle from './triangle.svg';
 // import {Route, Switch, NavLink} from 'react-router';
-import {NavLink} from 'react-router-dom';
 
 
 const Header = () => {
@@ -16,53 +17,52 @@ const Header = () => {
            
            <ul className='header__nav'>
                 <li className='nav__item'>
-                    <NavLink to='/Main' activeClassName='company_link'>ГОЛОВНА</NavLink>
+                    <NavLink to='/Main' className="heder__top-menu header__menu-link" activeClassName='company_link'>ГОЛОВНА</NavLink>
                </li>
                <li className='nav__item'>
-                    <a className="header__menu-link" href="/company">
+                    <span className="heder__top-menu header__menu-link" href="/company">
                         Охоронна компанія
-                    </a>
-                    <ul className='company_list'>
+                    </span>
+                    <ul className='submenu__list company_list'>
                         <li className='company_item'>
-                            <NavLink to='/Common' activeClassName='company_link'>Загальне</NavLink>
+                            <NavLink to='/Common'className="header__menu-link" activeClassName='company_link'>Загальне</NavLink>
                         </li>
                         <li className='company_item'>
-                            <NavLink to='/TypesService' activeClassName='company_link'>Види послуг</NavLink>
+                            <NavLink to='/TypesService' className="header__menu-link" activeClassName='company_link'>Види послуг</NavLink>
                         </li>
                         <li className='company_item'>
-                            <NavLink to='/GalleryProtection' activeClassName='company_link'>Галерея</NavLink>
+                            <NavLink to='/GalleryProtection' className="header__menu-link" activeClassName='company_link'>Галерея</NavLink>
                         </li>
                     </ul>
+                    <img className='item__triangle' src={triangle} alt="more"/>
                </li>
                <li className='nav__item'>
-                    <NavLink to='/SpecialTraining' activeClassName='company_link'>ПІДГОТОВКА</NavLink>        
+                    <NavLink to='/SpecialTraining' className="heder__top-menu header__menu-link" activeClassName='company_link'>ПІДГОТОВКА</NavLink>        
                </li>
                <li className='nav__item item__sport-club'>
-                    <a className="header__menu-link" href="/sportclub">
+                    <span className="heder__top-menu header__menu-link" href="/sportclub">
                         Спортивний клуб
-                    </a>
-                    <ul className='sportClub__list'>
+                    </span>
+                    <ul className='submenu__list sportClub__list'>
                         <li className='sportClub__item'>
-
-                        <NavLink to='/Box' activeClassName='company_link'>Бокс</NavLink>
+                        <NavLink to='/Box' className='submenu__item header__menu-link' activeClassName='company_link'>Бокс</NavLink>
                         </li>
                         <li className='sportClub__item'>
-                        <NavLink to='/Karate' activeClassName='company_link'>Карате</NavLink>
+                        <NavLink to='/Karate' className='submenu__item header__menu-link' activeClassName='company_link'>Карате</NavLink>
                         </li>
                         <li className='sportClub__item'>
-                        <NavLink to='/MuayThai' activeClassName='company_link'>Муей Тай</NavLink>
+                        <NavLink to='/MuayThai' className='submenu__item header__menu-link' activeClassName='company_link'>Муей Тай</NavLink>
                         </li>
                     </ul>
+                    <img className='item__triangle' src={triangle} alt="more"/>
                </li>
                <li className='nav__item'>
-                    <NavLink to='/Gallery' activeClassName='company_link'>
+                    <NavLink to='/Gallery' className="heder__top-menu header__menu-link" activeClassName='company_link'>
                         ГАЛЕРЕЯ
                     </NavLink>
                </li>
                <li className='nav__item'>
-                    <NavLink to='/Contacts' activeClassName='company_link'>
-                        КОНТАКТИ
-                    </NavLink>
+                    <NavLink to='/Contacts' className="heder__top-menu header__menu-link" activeClassName='company_link'>КОНТАКТИ</NavLink>
                </li>
            </ul>
         </div>

@@ -47,12 +47,12 @@ a {
 
 /* Color/shape of close button cross */
 .bm-cross {
-  background: #333;
+  background: #fff;
 }
 
 /* General sidebar styles */
 .bm-menu {
-  background: #333;
+  background: #282828;
   padding: 2.5em 1.5em 0;
   font-size: 1.15em;
 }
@@ -79,23 +79,31 @@ a {
 .berger-menu__item {
   padding-bottom: 3px;
   margin-bottom: 20px;
-}
-.sportClub__list {
-  display: none
-}
-.berger-menu__item-sport:hover > .sportClub__list {
-  display: block;
+  cursor: pointer;
 }
 
-
-
-.company_list {
-  display: none;
+.burger__triangle {
+  margin-left: 7px;
+  height: 14px;
+  width: 14px;
 }
-.berger-menu__company:hover > .company_list {
-  display: block;
+.submenu__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 5px;
+  margin-left: 15px;
+  width: 100%;
+  height: 75px;
 }
-
+.burger-menu__part {
+  text-shadow: 0 0 0px #fff; 
+}
+.burger-menu__part:hover {
+  transition-duration: 0.15s;
+  color: #fd7474;
+  text-shadow: 0 0 10px #C20E0B;
+}
 
 @media(min-width: 768px) {
   .bm-burger-button {
