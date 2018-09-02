@@ -9,14 +9,14 @@ const Header = () => {
     return (
         <div className='header'>
            <div className='header__logo-container'>
-               <a className='logo-container__link' href="#">
+               <NavLink  to='/' activeClassName='logo-container__link'>
                     <img className='logo-container__img' src={logo} alt=""/>
-               </a>
+                    </NavLink>
            </div>
            
            <ul className='header__nav'>
                 <li className='nav__item'>
-                    <NavLink to='/Main' activeClassName='company_link'>ГОЛОВНА</NavLink>
+                    <NavLink exact to='/' activeClassName='company_link'>ГОЛОВНА</NavLink>
                </li>
                <li className='nav__item'>
                     <a className="header__menu-link" href="/company">
@@ -28,9 +28,6 @@ const Header = () => {
                         </li>
                         <li className='company_item'>
                             <NavLink to='/TypesService' activeClassName='company_link'>Види послуг</NavLink>
-                        </li>
-                        <li className='company_item'>
-                            <NavLink to='/GalleryProtection' activeClassName='company_link'>Галерея</NavLink>
                         </li>
                     </ul>
                </li>
