@@ -11,12 +11,10 @@ const propTypes = {
 class MenuGallery extends PureComponent {
     render() {
         return (
-            <div>
-                 
-                  <NavLink  to='/BoxGallery'>Бокс</NavLink>
-                  <NavLink  to='/KarateGallery'>Карате</NavLink>
-                  <NavLink  to='/MuayThaiGallery'>Муей Тай</NavLink>
-                  
+            <div className='gallery__btn-container'> 
+                  <NavLink className='gallery__btn' to='/BoxGallery'>Бокс</NavLink>
+                  <NavLink className='gallery__btn' to='/KarateGallery'>Карате</NavLink>
+                  <NavLink className='gallery__btn' to='/MuayThaiGallery'>Муей Тай</NavLink>
             </div>
         );
     }
