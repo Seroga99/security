@@ -14,7 +14,7 @@ export default props => {
     <ul className='berger-menu__list'>
     
       <li className='berger-menu__item'>  
-        <NavLink className='burger-menu__part' to='/Main' activeClassName='company_link'>ГОЛОВНА</NavLink>     
+        <NavLink className='burger-menu__part' to='/' activeClassName='company_link'>ГОЛОВНА</NavLink>     
       </li>
 
       <li className='berger-menu__item berger-menu__company'>  
