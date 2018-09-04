@@ -45,21 +45,16 @@ const Header = () => {
                     </span>
                     <ul className='submenu__list sportClub__list'>
                         <li className='sportClub__item'>
-                        <NavLink to='/Box' className='submenu__item header__menu-link' activeClassName='company_link'>&#8226; Бокс</NavLink>
+                        <NavLink to='/General' className='submenu__item header__menu-link' activeClassName='company_link'>&#8226; Загальне</NavLink>
                         </li>
                         <li className='sportClub__item'>
-                        <NavLink to='/Karate' className='submenu__item header__menu-link' activeClassName='company_link'>&#8226; Карате</NavLink>
+                        <NavLink to='/Gallery' className='submenu__item header__menu-link' activeClassName='company_link'>&#8226; Галерея</NavLink>
                         </li>
                         <li className='sportClub__item'>
-                        <NavLink to='/MuayThai' className='submenu__item header__menu-link' activeClassName='company_link'>&#8226; Муей Тай</NavLink>
-                        </li>
+                        <NavLink to='/Rar' className='submenu__item header__menu-link' activeClassName='company_link'>&#8226; Архів</NavLink>
+                        </li>   
                     </ul>
                     <img className='item__triangle' src={triangle} alt="more"/>
-               </li>
-               <li className='nav__item'>
-                    <NavLink to='/Gallery' className="heder__top-menu header__menu-link" activeClassName='company_link'>
-                        ГАЛЕРЕЯ
-                    </NavLink>
                </li>
                <li className='nav__item'>
                     <NavLink to='/Contacts' className="heder__top-menu header__menu-link" activeClassName='company_link'>КОНТАКТИ</NavLink>

@@ -3,6 +3,8 @@ import { slide as Menu } from "react-burger-menu";
 import {NavLink} from 'react-router-dom'; 
 import './Sidebar.css';
 import triangle from './triangle.svg';
+import youtube from './youtube.svg';
+import facebook from './facebook.svg';
 
 
 export default props => {
@@ -62,8 +64,19 @@ export default props => {
       <li className=' berger-menu__item'>      
         <NavLink className='burger-menu__part' to='/Сontacts' activeClassName='company_link'>КОНТАКТИ</NavLink>  
       </li>
-
     </ul>
+    <ul className='contacts__networks-list'>
+                <li className='item contacts__networks-item'>
+                    <a href="https://www.youtube.com/channel/UCRnWq73JZ316Kd_wsdbS1nQ" target="_blank">
+                        <img className='contacts__networks-youtube' src={youtube} alt="youtube"/>
+                    </a>
+                </li>
+                <li className='item contacts__networks-item'>
+                    <a href="https://www.facebook.com/groups/sportalyansecontrol/about/" target="_blank">
+                        <img className='contacts__networks-facebook' src={facebook} alt="facebook"/>
+                    </a>
+                </li>
+            </ul>
     </Menu>
   );
 };
