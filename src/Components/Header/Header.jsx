@@ -12,7 +12,7 @@ const Header = () => {
            <div className='header__logo-container'>
                <NavLink  to='/' activeClassName='logo-container__link'>
                     <img className='logo-container__img' src={logo} alt=""/>
-                    </NavLink>
+                </NavLink>
            </div>
            
            <ul className='header__nav'>
