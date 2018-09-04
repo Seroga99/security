@@ -17,7 +17,7 @@ const Header = () => {
            
            <ul className='header__nav'>
                 <li className='nav__item'>
-                    <NavLink exact to='/Main' className="heder__top-menu header__menu-link" activeClassName='company_link'>ГОЛОВНА</NavLink>
+                    <NavLink exact to='/' className="heder__top-menu header__menu-link" activeClassName='company_link'>ГОЛОВНА</NavLink>
                </li>
                <li className='nav__item'>
                     <span className="heder__top-menu header__menu-link" href="/company">

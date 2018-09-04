@@ -1,6 +1,7 @@
 import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 import './MainPages.css';
+import MainLogo from './Main-phot.png'
 
 const propTypes = {
     
@@ -13,7 +14,7 @@ class MainPages extends PureComponent {
             <div>
                  <div className="main_page">
                <div className="main_photo"><figcaption>
-                   <img src="main-photo" alt="AlyansControl" className="main-photo"/>
+                   <img src={MainLogo} alt="AlyansControl" className="main-photo-logo"/>
                    <p>Охоронна компанія «Альянс Контроль» була заснована в липні 2016 року. (Ліцензія МВС України №716 від 27.07.2016) .є членами Федерації професіоналів безпеки України.</p>
                    <p>Філософія компанії – поєднання передових економічних технологій з професійним потенціалом команди.
                        Наша діяльність – це надання охоронних послуг для фізичних і юридичних осіб. Ми вкладаємо, як тривалі договори, так і договори на разове надання послуг.</p>
