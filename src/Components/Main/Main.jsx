@@ -1,5 +1,4 @@
 import React from 'react';
-import './Main.css';
 import MainPages from '../Header/MenuItems/MainPages/MainPages';
 import Common from '../../Components/Header/MenuItems/ProtectionCompany/Common/Common';
 import TypesService from '../Header/MenuItems/ProtectionCompany/TypesService/TypesService';
@@ -19,7 +18,6 @@ import MuayThaiGallery from '../Header/MenuItems/Gallery/MuayThaiGallery/MuayTha
 import Contacts from '../Header/MenuItems/Contacts/Contacts';
 const Main = () => {
     return (
-        <div className='wrapper_main'>
         <Switch>
             <Route exact path='/' component={MainPages}/>
             <Route path='/Common' component={Common}/>
@@ -37,12 +35,11 @@ const Main = () => {
             <Route path='/MuayThaiGallery' component={MuayThaiGallery}/>
 
             <Route path='/Contacts' component={Contacts}/>
-           
+
 
         {/* <GalleryProtection /> */}
         </Switch>
-        </div>
-
+        // </div>
     )
 };
 

@@ -11,7 +11,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 70px;
+    height: 11vh;
     background-color: #222;
     padding: 0 20px;
     box-shadow: 0px 10px 23px 6px rgba(0,0,0,0.55);
@@ -35,6 +35,9 @@ body {
 }
 @media(min-width: 768px) {
     .header__logo-container {
+        
+    }
+    .header__display {
         display: none;
     }
     .header__nav {
@@ -64,7 +67,7 @@ body {
     .submenu__list {
         display: none;
         position: absolute;
-        top: 0;
+        top: 0px;
         left: 0px;
         top: 60px;
         width: 100%;
@@ -99,15 +102,17 @@ body {
 @media(min-width: 1240px) {
     .header {
         padding: 40px;
-        height: 120px;
     }
     .header__nav {
         width: 87%;
     }
+    .header__display {
+        display: block;
+    }
     .header__logo-container {
         display: block;
-        height: 100px;
-        width: 100px;
+        height: 9vh;
+        width: 9vh;
     }
     .header__menu-link {
         font-size: 16px;

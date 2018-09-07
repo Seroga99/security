@@ -47,11 +47,13 @@ a {
 
 /* Color/shape of close button cross */
 .bm-cross {
+  margin-top: -25px;
   background: #fff;
 }
 
 /* General sidebar styles */
 .bm-menu {
+  margin-top: -25px;
   background: #282828;
   padding: 2.5em 1.5em 0;
   font-size: 1.15em;
@@ -104,6 +106,47 @@ a {
   color: #fd7474;
   text-shadow: 0 0 10px #C20E0B;
 }
+
+.sidebar__contacts-container {
+  height: 50px;
+  width: 250px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+.sidebar-num__list {
+  margin-top: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 160px;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.sidebar-networks__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 70px;
+
+  /*костыль*/
+  position: absolute;
+  right: -5px;
+  top: 0;
+
+}
+.sidebar-num__number {
+  font-size: 19px;
+  color: #d2f8cd;
+  text-shadow: 0 0 10px rgb(69, 194, 11);
+}
+
+
 
 @media(min-width: 768px) {
   .bm-burger-button {

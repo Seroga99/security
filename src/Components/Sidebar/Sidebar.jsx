@@ -14,7 +14,7 @@ export default props => {
     <ul className='berger-menu__list'>
     
       <li className='berger-menu__item'>  
-        <NavLink className='burger-menu__part' to='/Main' activeClassName='company_link'>ГОЛОВНА</NavLink>     
+        <NavLink className='burger-menu__part' to='/' activeClassName='company_link'>ГОЛОВНА</NavLink>     
       </li>
 
       <li className='berger-menu__item berger-menu__company'>  
@@ -36,7 +36,7 @@ export default props => {
       </li>
 
       <li className='berger-menu__item'>      
-        <NavLink className='burger-menu__part' to='/SpecialTraining' activeClassName='company_link'> ПІДГОТОВКА</NavLink>      
+        <NavLink className='burger-menu__part' to='/SpecialTraining' activeClassName='company_link'>ТАКТИКО-СПЕЦ ПІДГОТОВКА</NavLink>      
       </li>
 
       <li className='berger-menu__item berger-menu__item-sport'> 
@@ -46,37 +46,44 @@ export default props => {
         <img className='burger__triangle' src={triangle} alt="mort"/>
         <ul className='submenu__list sportClub__list'>
           <li className='sportClub__item'>
-            <NavLink className='burger-menu__part' to='/Box' activeClassName='company_link'>&#8226; Бокс</NavLink>
+          <NavLink to='/General' className='burger-menu__part' activeClassName='company_link'>&#8226; Загальне</NavLink>
           </li>
           <li className='sportClub__item'>
-            <NavLink className='burger-menu__part' to='/Karate' activeClassName='company_link'>&#8226; Карате</NavLink>  
+            <NavLink to='/Gallery' className='burger-menu__part' activeClassName='company_link'>&#8226; Галерея</NavLink>
           </li>
           <li className='sportClub__item'>
-            <NavLink className='burger-menu__part' to='/MuayThai' activeClassName='company_link'>&#8226; Муей Тай</NavLink>  
+            <NavLink to='/Rar' className='burger-menu__part' activeClassName='company_link'>&#8226; Архів</NavLink>
           </li>
         </ul>
-      </li>
-
-      <li className='berger-menu__item'>
-         <NavLink className='burger-menu__part' to='/Gallery' activeClassName='company_link'>ГАЛЕРЕЯ</NavLink>
       </li>
 
       <li className=' berger-menu__item'>      
         <NavLink className='burger-menu__part' to='/Сontacts' activeClassName='company_link'>КОНТАКТИ</NavLink>  
       </li>
     </ul>
-    <ul className='contacts__networks-list'>
-                <li className='item contacts__networks-item'>
+    <div className='sidebar__contacts-container'>
+      <ul className='sidebar-num__list'>
+        <li className='sidebar-num__item'>
+          <h5 className='sidebar-num__number'>+38 (095) 007-54-58</h5>
+        </li>
+        <li className='sidebar-num__item'>
+          <h5 className='sidebar-num__number'>+38 (044) 251-00-08</h5>
+        </li>
+      </ul>
+      <ul className='sidebar-networks__list'>
+                <li className='item sidebar-networks__item'>
                     <a href="https://www.youtube.com/channel/UCRnWq73JZ316Kd_wsdbS1nQ" target="_blank">
                         <img className='contacts__networks-youtube' src={youtube} alt="youtube"/>
                     </a>
-                </li>
-                <li className='item contacts__networks-item'>
-                    <a href="https://www.facebook.com/groups/sportalyansecontrol/about/" target="_blank">
-                        <img className='contacts__networks-facebook' src={facebook} alt="facebook"/>
-                    </a>
-                </li>
-            </ul>
+                 </li>
+        <li className='item sidebar-networks__item'>
+          <a href="https://www.facebook.com/groups/sportalyansecontrol/about/" target="_blank">
+              <img className='contacts__networks-facebook' src={facebook} alt="facebook"/>
+          </a>
+        </li>
+      </ul>
+    </div>
     </Menu>
   );
 };
+  
