@@ -4,7 +4,7 @@ import Common from '../../Components/Header/MenuItems/ProtectionCompany/Common/C
 import TypesService from '../Header/MenuItems/ProtectionCompany/TypesService/TypesService';
 
 import SpecialTraining from '../Header/MenuItems/SpecialTraining/SpecialTraining';
-import {Route, Switch, Redirect} from 'react-router';
+import {Route, Switch} from 'react-router';
 
 import Box from '../Header/MenuItems/SportsСlub/Box/Box';
 import Karate from '../Header/MenuItems/SportsСlub/Karate/Karate';
