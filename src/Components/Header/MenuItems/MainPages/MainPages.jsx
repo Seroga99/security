@@ -1,7 +1,10 @@
 import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 import './MainPages.css';
-import MainLogo from './Main-phot.png'
+import MainLogo from './Main-phot.png';
+import {images} from './images/allImages';
+import ImageGallery from 'react-image-gallery';
+
 
 const propTypes = {
     
@@ -21,7 +24,11 @@ class MainPages extends PureComponent {
            </figcaption>
            </div>
            <div className="main_page_info">
+
+
                <figcaption>
+           <ImageGallery items={images} autoPlay={true} showBullets={true} showIndex={true} showThumbnails={false}/>
+
                    <p className="center_text">Перелік основних послуг:</p>
                    <ul className="list-uslug">
                        <li className="item-uslug">Охорона об’єктів будь-якої складності;</li>
