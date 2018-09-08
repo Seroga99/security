@@ -34,3 +34,4 @@ KarateGallery.propTypes = propTypes;
 
 
 export default KarateGallery;
+    
