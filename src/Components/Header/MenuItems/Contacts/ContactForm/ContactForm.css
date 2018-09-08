@@ -1,0 +1,8 @@
+.btn-submit{
+    width: 250px;
+    height: 100px;
+    background-color: green;
+}
+.input-email, .input-name, .input-phone{
+    color: black;
+}

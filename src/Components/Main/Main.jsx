@@ -15,6 +15,8 @@ import BoxGallery from '../Header/MenuItems/Gallery/BoxGallery/BoxGallery';
 import KarateGallery from '../Header/MenuItems/Gallery/KarateGallery/KarateGallery';
 import MuayThaiGallery from '../Header/MenuItems/Gallery/MuayThaiGallery/MuayThaiGallery';
 
+import SportClubGeneral from '../Header/MenuItems/SportsСlub/SportClubGeneral/SportClubGeneral';
+
 import GalleryProtect from '../Header/MenuItems/Gallery/GalleryProtect/GalleryProtect';
 
 import Contacts from '../Header/MenuItems/Contacts/Contacts';
@@ -35,14 +37,16 @@ const Main = () => {
             <Route path='/BoxGallery' component={BoxGallery}/>
             <Route path='/KarateGallery' component={KarateGallery}/>
             <Route path='/MuayThaiGallery' component={MuayThaiGallery}/>
+            
+            <Route path='/Rar' component={SportClubGeneral}/> 
 
             <Route path='/GalleryProtection' component={GalleryProtect}/>
 
             <Route path='/Contacts' component={Contacts}/>
 
-
         {/* <GalleryProtection /> */}
         </Switch>
+
         // </div>
     )
 };
