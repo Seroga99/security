@@ -24,10 +24,10 @@ class MainPages extends PureComponent {
            </figcaption>
            </div>
            <div className="main_page_info">
-
-
+            <div className='wrap common_page'>
+           <ImageGallery items={images} autoPlay={true} showBullets={true} showIndex={true} showThumbnails={false} slideInterval={4000}/>
+           </div>
                <figcaption>
-           <ImageGallery items={images} autoPlay={true} showBullets={true} showIndex={true} showThumbnails={false}/>
 
                    <p className="center_text">Перелік основних послуг:</p>
                    <ul className="list-uslug">

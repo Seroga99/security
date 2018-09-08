@@ -29,7 +29,7 @@ const Main = () => {
 
             <Route path='/SpecialTraining' component={SpecialTraining}/>
 
-            <Route path='/Box' component={Box}/>
+            <Route path='/Box' component={Box} activeClass='red'/>
             <Route path='/Karate' component={Karate}/>
             <Route path='/MuayThai' component={MuayThai}/>
 
