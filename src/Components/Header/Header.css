@@ -33,6 +33,10 @@ body {
 .nav__item {
     list-style-type: none;
 }
+
+.color-red {
+    color: #fd7474;
+}
 @media(min-width: 768px) {
     .header__logo-container {
         

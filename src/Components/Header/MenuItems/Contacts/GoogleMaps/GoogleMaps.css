@@ -1,4 +1,52 @@
 .aliance-control{
-    width: 660px;
+    width: 50rem;
     height: 450px;
+}
+.wrap-map {
+    margin: left;
+    width: 100%;
+    text-align: center;
+}
+.contact-text {
+    width: 100%;
+}
+.table {
+    margin: auto;
+    text-align: left;
+}
+
+.name-company {
+    color: #d61a1a;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 15px 0 6px;
+    font-family: 'Open Sans', sans-serif;
+}
+.corporate-office{
+    color: hsl(0, 78%, 47%);
+    font-family: "Open Sans",sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 12px;
+}
+.time{
+    font-family: 'Open Sans', sans-serif;
+    color: #959595;
+    font-size: 1rem;
+    padding: 6px 5px 0 0;
+}
+.right {
+    text-align: right;
+}
+tr {
+    font-family: 'Open Sans', sans-serif;
+    color: #959595;
+    font-size: 1rem;
+    padding: 6px 5px 0 0;
+}
+.control {
+    font-size: 1.5rem;
+}
+.phone, .email {
+    margin-left: 52%;
 }
