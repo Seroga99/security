@@ -1,13 +1,13 @@
 import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
-import './Common.css';
+import './Common'
+import DataComon from './dataComon'
 
 class Common extends PureComponent {
     render() {
         return (
             <div>
-                <span>Общее</span>
-                
+            <DataComon/>
             </div>
         );
     }

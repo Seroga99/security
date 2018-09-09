@@ -42,8 +42,11 @@
     background: #282828;
     color: #FFFFFF;
     text-shadow: 0 0 10px #C20E0B;
+    margin-bottom: 0.7rem;
+    margin-top: 0.9rem;
 }
 .border-top {
+    margin-top: 1rem;
     text-align: center;
     /*margin: auto;*/
 }
@@ -54,6 +57,14 @@
     height: auto;
     margin: auto;
 
+}
+
+.image-gallery-slide img{
+    height: 400px;
+}
+.wrap{
+    margin: auto;
+    width: 80%;
 }
 
 @media (min-width: 480px) {
