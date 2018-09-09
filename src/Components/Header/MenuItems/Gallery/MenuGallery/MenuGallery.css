@@ -20,6 +20,9 @@
     color: #fd7474;
     text-shadow: 0 0 10px #C20E0B;
 }
+.color-red {
+    color: #C20E0B;
+}
 @media(min-width: 768px) {
     .gallery__btn-container {
         margin: auto;

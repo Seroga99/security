@@ -12,9 +12,9 @@ class MenuGallery extends PureComponent {
     render() {
         return (
             <div className='gallery__btn-container'> 
-                  <NavLink className='gallery__btn' to='/BoxGallery'>Бокс</NavLink>
-                  <NavLink className='gallery__btn' to='/KarateGallery'>Карате</NavLink>
-                  <NavLink className='gallery__btn' to='/MuayThaiGallery'>Муей Тай</NavLink>
+                  <NavLink className='gallery__btn' to='/BoxGallery' activeClassName='color-red'>Бокс</NavLink>
+                  <NavLink className='gallery__btn' to='/KarateGallery' activeClassName='color-red'>Карате</NavLink>
+                  <NavLink className='gallery__btn' to='/MuayThaiGallery' activeClassName='color-red'>Муей Тай</NavLink>
             </div>
         );
     }

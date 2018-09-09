@@ -9,7 +9,6 @@ class Contacts extends PureComponent {
         return (
             <div>
                 <GoogleMaps/>
-                <ContactForm/>
             </div>
         );
     }

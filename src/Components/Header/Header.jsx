@@ -18,7 +18,7 @@ const Header = () => {
            
            <ul className='header__nav'>
                 <li className='nav__item'>
-                    <NavLink exact to='/' className="heder__top-menu header__menu-link header__display" activeClassName='company_link'>ГОЛОВНА</NavLink>
+                    <NavLink exact to='/' className="heder__top-menu header__menu-link header__display" activeClassName='color-red'>ГОЛОВНА</NavLink>
                </li>
                <li className='nav__item'>
                     <span className="heder__top-menu header__menu-link" href="/company">
@@ -38,7 +38,7 @@ const Header = () => {
                     <img className='item__triangle' src={triangle} alt="more"/>
                </li>
                <li className='nav__item'>
-                    <NavLink to='/SpecialTraining' className="heder__top-menu header__menu-link" activeClassName='company_link'>ТАКТИКО-СПЕЦ ПІДГОТОВКА</NavLink>        
+                    <NavLink to='/SpecialTraining' className="heder__top-menu header__menu-link" activeClassName='color-red'>ТАКТИКО-СПЕЦ ПІДГОТОВКА</NavLink>        
                </li>
                <li className='nav__item item__sport-club'>
                     <span className="heder__top-menu header__menu-link" href="/sportclub">
@@ -58,7 +58,7 @@ const Header = () => {
                     <img className='item__triangle' src={triangle} alt="more"/>
                </li>
                <li className='nav__item'>
-                    <NavLink to='/Contacts' className="heder__top-menu header__menu-link" activeClassName='company_link'>КОНТАКТИ</NavLink>
+                    <NavLink to='/Contacts' className="heder__top-menu header__menu-link" activeClassName='color-red'>КОНТАКТИ</NavLink>
                </li>
            </ul>
         </div>
