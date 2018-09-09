@@ -40,9 +40,9 @@ class GoogleMaps extends Component {
           <td className='time'> Телефон: <Mailto tel='205-454-1234' /></td>
         </tr>
         <tr>
-          <td className='time'> Email: <Mailto email='hello@coston.cool'
+          <td className='time'> Email: <Mailto email='alyanskontrol@gmail.com'
                headers={{subject:'Question from the website'},
-               {cc:'friend@coston.cool'}}/>
+               {cc:'alyanskontrol@gmail.com'}}/>
           </td>
         </tr>
       </table>
@@ -55,9 +55,9 @@ class GoogleMaps extends Component {
         <td className='time right'><Mailto tel='+38-044-251-00-08' /></td>
         </tr>
         <tr>
-          <td className='time'> Email: <Mailto email='hello@coston.cool'
+          <td className='time'> Email: <Mailto email='alyanskontrol@gmail.com'
                headers={{subject:'Question from the website'},
-               {cc:'friend@coston.cool'}}/>
+               {cc:'alyanskontrol@gmail.com'}}/>
           </td>
         </tr>
       </table>
