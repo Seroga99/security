@@ -1,3 +1,4 @@
+
 .footer__contacts {
     display: flex;
     align-items: center;
@@ -23,13 +24,15 @@
     align-items: center;
     width: 80px;
     margin: 0;
-
 }
 .contacts__networks-facebook {
     height: 38px;
     width: 32px;
+    fill: #fff;
 }
-
+.contacts__networks-facebook:hover {
+    transform: rotate(15deg);
+}
 .contacts__networks-youtube {
     height: 32px;
     width: 32px;
@@ -41,11 +44,13 @@
     line-height: 1.2;
     margin: 0;
     font-size: 16px;
-    color: #d2f8cd;
-    text-shadow: 0 0 10px rgb(69, 194, 11);
+    color: #f8dbcd;
+    text-shadow: 0 0 10px rgb(224, 3, 3);
 }
 @media(min-width: 768px) {
-
+    .contacts__telephone-list {
+        width: 200px;   
+    }
 }
 @media(min-width: 1240px) {
     .telephone-item__number {

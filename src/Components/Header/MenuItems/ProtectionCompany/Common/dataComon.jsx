@@ -13,11 +13,11 @@ class DataComon extends PureComponent {
         return (
             <div className="main_page">
                 <div className="common_page">
-                        <h2 className="center_text common-list-title">ФЕДЕРАЦІЯ ПРОФЕСІОНАЛІВ БЕЗПЕКИ
+                        <h2 className="center_text common-list-title font-weight__bold">ФЕДЕРАЦІЯ ПРОФЕСІОНАЛІВ БЕЗПЕКИ
                             Пультова охорона «АЛЬЯНС КОНТРОЛЬ»</h2>
                 </div>
                 <div className="common_page text">
-                    <p className="common-text">
+                    <p className="common-text ">
                         За останні декілька років житловий фонд та інфраструктура Чабанів збільшилася у кілька
                         разів. Потенційних жителів приваблюють нова дорога, можливість щодня швидко,
                         порівняно з іншими передмістями, дістатися до Києва на роботу. Зручність життя і в
@@ -62,7 +62,7 @@ class DataComon extends PureComponent {
                     </div>
                     <div className="common_page_info">
                         <figcaption>
-                            <p className="center_text common-list-title">
+                            <p className="center_text common-list-title font-weight__bold">
                                 Охоронна компанія «АЛЬЯНС КОНТРОЛЬ», окрім пультової охорони, надає своїм
                                 клієнтам широкий спектр послуг з охорони та безпеки :</p>
                             <ul className="common-list">

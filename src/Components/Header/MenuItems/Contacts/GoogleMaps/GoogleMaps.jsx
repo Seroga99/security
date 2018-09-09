@@ -11,9 +11,9 @@ class GoogleMaps extends Component {
       <div className='wrap-map'>
         <iframe src={src} frameBorder="0"  className='aliance-control'></iframe>
       <p className='name-company'>Назва компанії</p>
-      <p className='control'>Альянс Контроль</p>
+      <p className='control font-weight__bold'>Альянс Контроль</p>
       <p className='corporate-office'>Корпоративний офіс</p>
-      <p className='time'>ГРАФІК РОБОТИ</p>
+      <p className='time font-weight__bold'>ГРАФІК РОБОТИ</p>
       <table className='table'>
         <tr>ПОНЕДІЛОК
           <td>13:30-22:30</td>
@@ -49,13 +49,13 @@ class GoogleMaps extends Component {
       <p className='corporate-office'>Філія</p>
       <table className='table'>
         <tr>
-          <td className='time'> Телефон: <Mailto tel='+38-095-007-54-58' /></td>
+          <td className='time'> Телефон:   <Mailto className='color__red' tel='+38-095-007-54-58' /></td>
         </tr>
         <tr>
-        <td className='time right'><Mailto tel='+38-044-251-00-08' /></td>
+        <td className='time right color__red'><Mailto tel='+38-044-251-00-08' /></td>
         </tr>
         <tr>
-          <td className='time'> Email: <Mailto email='alyanskontrol@gmail.com'
+          <td className='time'> Email: <Mailto className='color__red' email='alyanskontrol@gmail.com'
                headers={{subject:'Question from the website'},
                {cc:'alyanskontrol@gmail.com'}}/>
           </td>

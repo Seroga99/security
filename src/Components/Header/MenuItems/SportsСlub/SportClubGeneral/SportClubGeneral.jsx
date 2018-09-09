@@ -7,8 +7,7 @@ class SportClubGeneral extends Component {
     render() {
         return (
             <div >
-               
-                {dataSport.map(el => <div className='container'><p className='paragraph'>{el.p}</p> <span className='text'>{el.text}</span></div>)}
+                {dataSport.map(el => <div className='container'><p className='paragraph '>{el.p}</p> <span className='text '>{el.text}</span></div>)}
             </div>
         );
     }

@@ -18,8 +18,8 @@ class MainPages extends PureComponent {
                  <div className="main_page">
                <div className="main_photo"><figcaption>
                    <img src={MainLogo} alt="AlyansControl" className="main-photo-logo"/>
-                   <p>Охоронна компанія «Альянс Контроль» була заснована в липні 2016 року. (Ліцензія МВС України №716 від 27.07.2016) .є членами Федерації професіоналів безпеки України.</p>
-                   <p>Філософія компанії – поєднання передових економічних технологій з професійним потенціалом команди.
+                   <p className='text-align__left padding'>Охоронна компанія <span className='font-weight__bold'>«Альянс Контроль»</span> була заснована в липні 2016 року. (Ліцензія МВС України №716 від 27.07.2016).Є членами Федерації професіоналів безпеки України.</p>
+                   <p className='text-align__left '>Філософія компанії – поєднання передових економічних технологій з професійним потенціалом команди.
                        Наша діяльність – це надання охоронних послуг для фізичних і юридичних осіб. Ми вкладаємо, як тривалі договори, так і договори на разове надання послуг.</p>
            </figcaption>
            </div>
@@ -29,7 +29,7 @@ class MainPages extends PureComponent {
            </div>
                <figcaption>
 
-                   <p className="center_text">Перелік основних послуг:</p>
+                   <p className="center_text font-weight__bold">Перелік основних послуг:</p>
                    <ul className="list-uslug">
                        <li className="item-uslug">- Охорона об’єктів будь-якої складності;</li>
                        <li className="item-uslug">- Фізичний захист приватних осіб, супровід вантажів по території України;</li>
@@ -43,7 +43,7 @@ class MainPages extends PureComponent {
                        <li className="item-uslug">- Фізична експрес охорона;</li>
                        <li className="item-uslug">- Інформаційний захист, захист компаній від кібератак.</li>
                    </ul>
-                   <p className="center_text">Співпрацюючи з нами, Ви отримуєте:</p>
+                   <p className="center_text font-weight__bold">Співпрацюючи з нами, Ви отримуєте:</p>
                    <ul className="list-uslug">
                        <li className="item-uslug">- Фахівців високого класу, що мають великий досвід роботи;</li>
                        <li className="item-uslug">- Будь-які варіанти проектів – від економних до високобюджетних;</li>

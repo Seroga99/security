@@ -62,8 +62,7 @@ body {
     }
     .header__menu-link:hover  {
         transition-duration: 0.15s;
-        color: #fd7474;
-        text-shadow: 0 0 10px #C20E0B;
+        color: red;
     }
 
     .nav__item {

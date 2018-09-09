@@ -34,13 +34,13 @@
 @media(min-width: 1240px) { 
     .training__title { 
         padding: 30px;
-        font-size: 22px;
+        font-size: 26px;
     }
     
     .tarining__text {
         margin-top: 20px;
         text-align: left;
-        font-size: 20px;
+        font-size: 22px;
         margin-bottom: 50px;
     }
 }
@@ -51,7 +51,3 @@
 	display: none;
 }
 
-.color__green {
-    color: #d2f8cd;
-    text-shadow: 0 0 10px rgb(69, 194, 11);
-}
